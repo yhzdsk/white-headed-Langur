@@ -21,6 +21,6 @@ Our implementation is based on [PyTorch](https://pytorch.org). We recommend usin
 ```
 conda create --name XXX python=3.8
 conda activate XXX
-conda install pytorch==2.0.1 torchvision==0.15.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
