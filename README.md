@@ -24,3 +24,7 @@ conda activate XXX
 conda install conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
+
+## Prepare the data
+
+Generate a data list for the next step, with `audio_path` as the audio file path. Users need to store the audio dataset in the `dataset/audio` directory in advance, with each folder containing a category of audio data. Each audio data should be at least 3 seconds long, such as` dataset/audio/bird calls/···`. `Audio `is the location where the data list is stored, and the format of the generated data category is` Audio Path \ t Audio Corresponding Category Label`. The audio path and label are separated by a tab `\ t`. Readers can also modify the following functions according to their own way of storing data.
